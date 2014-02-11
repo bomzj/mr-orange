@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="ParticlesSettings.ParticleSystemSettings">
+    <MinNumParticles>30</MinNumParticles>
+    <MaxNumParticles>40</MaxNumParticles>
+    <TextureFilename>other/smallStar</TextureFilename>
+    <MinDirectionAngle>0</MinDirectionAngle>
+    <MaxDirectionAngle>360</MaxDirectionAngle>
+    <MinInitialSpeed>60</MinInitialSpeed>
+    <MaxInitialSpeed>210</MaxInitialSpeed>
+    <AccelerationMode>EndVelocity</AccelerationMode>
+    <EndVelocity>0</EndVelocity>
+    <MinRotationSpeed>0</MinRotationSpeed>
+    <MaxRotationSpeed>360</MaxRotationSpeed>
+    <MinLifetime>.6</MinLifetime>
+    <MaxLifetime>1.0</MaxLifetime>
+    <MinSize>0.35</MinSize>
+    <MaxSize>0.35</MaxSize>
+    <Gravity>0 0</Gravity>
+  </Asset>
+</XnaContent>

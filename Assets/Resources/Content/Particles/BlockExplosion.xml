@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="ParticlesSettings.ParticleSystemSettings">
+    <MinNumParticles>25</MinNumParticles>
+    <MaxNumParticles>35</MaxNumParticles>
+    <TextureFilename>Particles/WhiteCircle</TextureFilename>
+    <MinDirectionAngle>0</MinDirectionAngle>
+    <MaxDirectionAngle>360</MaxDirectionAngle>
+    <MinInitialSpeed>50</MinInitialSpeed>
+    <MaxInitialSpeed>180</MaxInitialSpeed>
+    <AccelerationMode>None</AccelerationMode>
+    <MinRotationSpeed>-45</MinRotationSpeed>
+    <MaxRotationSpeed>45</MaxRotationSpeed>
+    <MinLifetime>0.6</MinLifetime>
+    <MaxLifetime>0.8</MaxLifetime>
+    <MinSize>.5</MinSize>
+    <MaxSize>1</MaxSize>
+    <Gravity>0 1500</Gravity>
+  </Asset>
+</XnaContent>

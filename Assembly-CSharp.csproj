@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{043D41D1-EB6D-262F-BB97-4E287D88E342}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioSourceController.cs" />
+     <Compile Include="Assets\Scripts\DrawQueue.cs" />
+     <Compile Include="Assets\Scripts\DrawSpriteCall.cs" />
+     <Compile Include="Assets\Scripts\DrawStringCall.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\Collision.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\Distance.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\DynamicTree.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\DynamicTreeBroadPhase.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\IBroadPhase.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\Shapes\ChainShape.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\Shapes\CircleShape.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\Shapes\EdgeShape.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\Shapes\PolygonShape.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\Shapes\Shape.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Collision\TimeOfImpact.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\ConvexHull\ChainHull.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\ConvexHull\GiftWrap.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\ConvexHull\Melkman.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Curve.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\CurveKey.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\CurveKeyCollection.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\BayazitDecomposer.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Delaunay\DelaunayTriangle.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Delaunay\Sweep\AdvancingFront.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Delaunay\Sweep\AdvancingFrontNode.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Delaunay\Sweep\DTSweep.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Delaunay\Sweep\DTSweepConstraint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Delaunay\Sweep\DTSweepContext.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Delaunay\Sweep\DTSweepPointComparator.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Delaunay\Sweep\PointOnEdgeException.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\ITriangulatable.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Orientation.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Polygon\Polygon.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Polygon\PolygonPoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Polygon\PolygonSet.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Sets\ConstrainedPointSet.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Sets\PointSet.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\TriangulationConstraint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\TriangulationContext.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\TriangulationMode.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\TriangulationPoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\TriangulationUtil.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Util\FixedArray3.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Util\FixedBitArray3.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Util\PointGenerator.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDT\Util\PolygonGenerator.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\CDTDecomposer.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\EarclipDecomposer.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\FlipcodeDecomposer.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\Edge.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\MonotoneMountain.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\Node.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\Point.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\QueryGraph.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\Sink.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\Trapezoid.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\TrapezoidalMap.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\Triangulator.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\XNode.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Seidel\YNode.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\SeidelDecomposer.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Decomposition\Triangulate.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\FixedArray.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\HashSet.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\LineTools.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Math.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\MathHelper.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Matrix.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Path.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PathManager.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PhysicsLogic\FilterData.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PhysicsLogic\PhysicsLogic.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PhysicsLogic\RealExplosion.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PhysicsLogic\SimpleExplosion.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PolygonManipulation\CuttingTools.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PolygonManipulation\SimpleCombiner.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PolygonManipulation\SimplifyTools.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PolygonManipulation\YuPengClipper.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\PolygonTools.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Serialization.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Stopwatch.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\TextureTools\MarchingSquares.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\TextureTools\Terrain.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\TextureTools\TextureConverter.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Vector2.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Vector3.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Common\Vertices.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Controllers\AbstractForceController.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Controllers\BuoyancyController.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Controllers\Controller.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Controllers\GravityController.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Controllers\SimpleWindForce.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Controllers\VelocityLimitController.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\ConvertUnits.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\DebugViewBase.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Body.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\BreakableBody.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\ContactManager.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Contacts\Contact.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Contacts\ContactSolver.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Fixture.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Island.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\AngleJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\DistanceJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\FixedMouseJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\FrictionJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\GearJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\Joint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\MotorJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\PrismaticJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\PulleyJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\RevoluteJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\RopeJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\WeldJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\Joints\WheelJoint.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\TimeStep.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\World.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Dynamics\WorldCallbacks.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Factories\BodyFactory.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Factories\FixtureFactory.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Factories\JointFactory.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Factories\LinkFactory.cs" />
+     <Compile Include="Assets\Scripts\Farseer Physics Engine 3.5\Settings.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Audio\SoundEffect.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Content\ContentManager.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\DrawableGameComponent.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\EnumsFramework.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\MathHelper.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\Matrix.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\Plane.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\Point.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\Quaternion.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\Rectangle.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\TitleContainer.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\Vector2.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\Vector3.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Framework\Vector4.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Game\Game.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Game\GameServiceContainer.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Game\GameTime.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Game\GameWindow.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Game\GraphicsDeviceManager.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Game\UnityGameWindow.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\GameComponent.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\GameComponentCollection.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\GameComponentCollectionEventArgs.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\Color.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\Effect\Effect.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\EnumsGraphics.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\GraphicsDevice.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\GraphicsResource.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\PackedVector\IPackedVector.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\SpriteBatch.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\SpriteFont.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\States\BlendState.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\States\DepthStencilState.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\States\RasterizerState.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\States\SamplerState.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\Texture2D.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Graphics\Viewport.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\IDrawable.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\IGameComponent.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\IUpdateable.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\EnumsInput.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\GamePad.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\GamePadButtons.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\GamePadState.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\GamePadThumbSticks.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\Keyboard.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\KeyboardState.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\MouseState.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\Touch\EnumsTouch.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\Touch\TouchCollection.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\Touch\TouchLocation.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Input\Touch\TouchPanel.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Media\MediaPlayer.cs" />
+     <Compile Include="Assets\Scripts\XNAEmulator\Media\Song.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Blocks\Block.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Blocks\MrOrange.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Chartboost\CBEventListener1.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Game1.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Helpers\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Helpers\ConvertUnits.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Helpers\DebugHelper.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Helpers\GleedLevel.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Helpers\Helper.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Helpers\HighScore.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Helpers\Settings.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Input\InputAction.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Input\InputState.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Levels\Level.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Particles\Particle.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Particles\ParticleEmitter.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Particles\ParticleHelpers.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Particles\ParticleSystem.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Particles\ParticleSystemSettings.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\Base\GameScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\Base\ScreenManager.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\ChooseLevelScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\CreditsScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\GameplayScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\MainMenuScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\OptionsMenuScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\PauseMenuScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\SplashScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\SummerBackgroundScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Screens\WinScreen.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Sky\Cloud.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Sky\SkyManager.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Social\SocialButtons.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\Sprite.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\UI\Base\Button.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\UI\Base\Slider.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\UI\Base\TextBlock.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\UI\LevelButton.cs" />
+     <Compile Include="Assets\Scripts\XNAGame\VirtualViewport.cs" />
+     <Compile Include="Assets\Scripts\XNALauncher.cs" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Resources\Content\Levels\19.xml" />
+     <None Include="Assets\Resources\Content\Levels\28.xml" />
+     <None Include="Assets\Resources\Content\Levels\22.xml" />
+     <None Include="Assets\Resources\Content\Particles\StarDust.xml" />
+     <None Include="Assets\Resources\Content\Levels\1.xml" />
+     <None Include="Assets\Resources\Content\Levels\2.xml" />
+     <None Include="Assets\Resources\Content\Levels\4.xml" />
+     <None Include="Assets\Resources\Content\Particles\BlockExplosion.xml" />
+     <None Include="Assets\Resources\Content\Fonts\Orange.xml" />
+     <None Include="Assets\Resources\Content\Levels\16.xml" />
+     <None Include="Assets\Resources\Content\Levels\30.xml" />
+     <None Include="Assets\Resources\Content\Levels\9.xml" />
+     <None Include="Assets\Resources\Content\Levels\26.xml" />
+     <None Include="Assets\Resources\Content\Levels\20.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Resources\Content\Levels\23.xml" />
+     <None Include="Assets\Resources\Content\Levels\15.xml" />
+     <None Include="Assets\Resources\Content\Levels\3.xml" />
+     <None Include="Assets\Resources\Content\Levels\8.xml" />
+     <None Include="Assets\Resources\Content\Levels\14.xml" />
+     <None Include="Assets\Resources\Content\Levels\7.xml" />
+     <None Include="Assets\Resources\Content\Levels\29.xml" />
+     <None Include="Assets\Resources\Content\Levels\18.xml" />
+     <None Include="Assets\Resources\Content\Levels\12.xml" />
+     <None Include="Assets\Resources\Content\Levels\27.xml" />
+     <None Include="Assets\Resources\Content\Levels\11.xml" />
+     <None Include="Assets\Resources\Content\Levels\17.xml" />
+     <None Include="Assets\Resources\Content\Fonts\Green.xml" />
+     <None Include="Assets\Resources\Content\Levels\10.xml" />
+     <None Include="Assets\Resources\Content\Levels\25.xml" />
+     <None Include="Assets\Resources\Content\Fonts\LightGray.xml" />
+     <None Include="Assets\Resources\Content\Levels\24.xml" />
+     <None Include="Assets\Resources\Content\Levels\21.xml" />
+     <None Include="Assets\Resources\Content\Levels\5.xml" />
+     <None Include="Assets\Resources\Content\Levels\13.xml" />
+     <None Include="Assets\Resources\Content\Levels\6.xml" />
+ <Reference Include="JsonFx.Json">
+ <HintPath>Assets\Plugins\JsonFx.Json.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0CD93581-DCC1-FBCA-E2A1-F69F3B7CADB2}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

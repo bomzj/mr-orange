@@ -1,0 +1,9 @@
+*.userprefs
+*.suo
+*.meta
+
+obj/
+
+Library/metadata/
+Library/ScriptAssemblies/
+/Temp
