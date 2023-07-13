@@ -35,21 +35,7 @@ Earn stars by completing levels faster, showcasing your mastery of the game. Cha
 
 ## Installation
 
-To play Mr Orange, follow these simple steps:
-
-1. Clone the repository:
-
-```shell
-git clone https://github.com/bomzj/mr-orange.git
-```
-
-2. Navigate to the project directory:
-
-```shell
-cd mr-orange
-```
-
-3. Open the game in your preferred web browser or compile it for your desired platform using the provided build tools.
+This game is a Unity port of the original XNA version. Ensure you have Unity 4 installed on your system.
 
 That's it! You're now ready to embark on an exciting journey with Mr Orange.
 
@@ -67,7 +53,7 @@ We appreciate your time and effort in improving Mr Orange.
 
 ## Feedback
 
-We value your feedback and suggestions. If you have any questions, ideas, or bug reports, please [open an issue](https://github.com/your-username/mr-orange/issues) on the project's GitHub repository. We'll do our best to respond promptly.
+We value your feedback and suggestions. If you have any questions, ideas, or bug reports, please [open an issue](https://github.com/bomzj/mr-orange/issues) on the project's GitHub repository. We'll do our best to respond promptly.
 
 ## License
 
