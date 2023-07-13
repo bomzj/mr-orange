@@ -4,7 +4,7 @@
 
 Welcome to the exciting world of Mr Orange, a puzzle game that will challenge your problem-solving skills and keep you entertained for hours. Join Mr Orange on his quest to reach the orange block by eliminating all obstacles along his way. Whether you're a child or an adult, this game is designed to bring joy to players of all ages.
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Nm_2XNL8xQU/0.jpg)](http://www.youtube.com/watch?v=Nm_2XNL8xQU)
+[![Mr Orange Trailer](http://img.youtube.com/vi/Nm_2XNL8xQU/0.jpg)](http://www.youtube.com/watch?v=Nm_2XNL8xQU)
 
 ## Table of Contents
 
